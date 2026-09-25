@@ -24,7 +24,7 @@ The easiest way to install Doomsday extension.
 1. **Download the extension**
 
    Download `doomsday@devastator-x.github.io.shell-extension.zip` from:
-   - [GitHub Releases](https://github.com/devastator-x/doomsday/releases/latest)
+   - [GitHub Releases](https://github.com/sqzer-x/doomsday/releases/latest)
 
 2. **Install via Extension Manager**
 
@@ -62,7 +62,7 @@ Install using command line.
 
 ```bash
 # 1. Download the extension
-wget https://github.com/devastator-x/doomsday/releases/latest/download/doomsday@devastator-x.github.io.shell-extension.zip
+wget https://github.com/sqzer-x/doomsday/releases/latest/download/doomsday@devastator-x.github.io.shell-extension.zip
 
 # 2. Create extension directory
 mkdir -p ~/.local/share/gnome-shell/extensions/doomsday@devastator-x.github.io
@@ -92,7 +92,7 @@ Install directly from GitHub repository.
 ### Clone Repository
 
 ```bash
-git clone https://github.com/devastator-x/doomsday.git
+git clone https://github.com/sqzer-x/doomsday.git
 cd doomsday
 ```
 
@@ -228,7 +228,7 @@ Extension Manager will notify you when updates are available and handle updates 
 
 ```bash
 # Download latest version
-wget https://github.com/devastator-x/doomsday/releases/latest/download/doomsday@devastator-x.github.io.shell-extension.zip
+wget https://github.com/sqzer-x/doomsday/releases/latest/download/doomsday@devastator-x.github.io.shell-extension.zip
 
 # Remove old version
 rm -rf ~/.local/share/gnome-shell/extensions/doomsday@devastator-x.github.io
@@ -249,8 +249,8 @@ glib-compile-schemas \
 
 ## Getting Help
 
-- **Issues**: https://github.com/devastator-x/doomsday/issues
-- **Documentation**: https://github.com/devastator-x/doomsday
+- **Issues**: https://github.com/sqzer-x/doomsday/issues
+- **Documentation**: https://github.com/sqzer-x/doomsday
 - **GNOME Extensions**: https://extensions.gnome.org
 
 ---

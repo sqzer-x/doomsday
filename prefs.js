@@ -373,7 +373,7 @@ export default class DoomsdayPreferences extends ExtensionPreferences {
         });
         githubRow.add_prefix(githubIcon);
         githubRow.connect('activated', () => {
-            Gtk.show_uri(window, 'https://github.com/devastator-x/doomsday', 0);
+            Gtk.show_uri(window, 'https://github.com/sqzer-x/doomsday', 0);
         });
         linksGroup.add(githubRow);
 
@@ -388,7 +388,7 @@ export default class DoomsdayPreferences extends ExtensionPreferences {
         });
         issueRow.add_prefix(issueIcon);
         issueRow.connect('activated', () => {
-            Gtk.show_uri(window, 'https://github.com/devastator-x/doomsday/issues', 0);
+            Gtk.show_uri(window, 'https://github.com/sqzer-x/doomsday/issues', 0);
         });
         linksGroup.add(issueRow);
 
@@ -403,7 +403,7 @@ export default class DoomsdayPreferences extends ExtensionPreferences {
         });
         donateRow.add_prefix(donateIcon);
         donateRow.connect('activated', () => {
-            Gtk.show_uri(window, 'https://github.com/sponsors/devastator-x', 0);
+            Gtk.show_uri(window, 'https://github.com/sponsors/sqzer-x', 0);
         });
         linksGroup.add(donateRow);
 
@@ -431,7 +431,7 @@ export default class DoomsdayPreferences extends ExtensionPreferences {
         // Author row
         const authorRow = new Adw.ActionRow({
             title: 'Author',
-            subtitle: 'devastator-x',
+            subtitle: 'sqzer-x',
         });
         const authorIcon = new Gtk.Image({
             icon_name: 'avatar-default-symbolic',
